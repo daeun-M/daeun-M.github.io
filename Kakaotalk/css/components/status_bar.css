@@ -1,0 +1,12 @@
+.status_bar {
+  position: fixed;
+  top: 0;
+  width: 500px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-wifi {
+  margin-right: 10px;
+}

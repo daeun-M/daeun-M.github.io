@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Cocoa Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="status_bar">
+        <div class="status_bar_column">
+          No Service
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status_bar_column">11:27</div>
+        <div class="status_bar_column">
+          100%
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="screen_header">
+        <h1 class="screen_header_title">Find</h1>
+        <div class="screen_header_icons">
+          <span><i class="fas fa-search"></i></span>
+          <span class="screen_header_icons">
+            <a href="setting.html">
+              <i class="fas fa-cog"></i>
+            </a>
+            <span class="screen_header_icons-cog badge2"></span>
+          </span>
+        </div>
+      </header>
+
+      <main class="main_screen">
+        <div class="find_screen_icons">
+          <div class="find_screen_icons-icon">
+            <i class="fas fa-qrcode"></i>
+            <span> QR Code </span>
+          </div>
+          <div class="find_screen_icons-icon">
+            <i class="fas fa-address-book"></i>
+            <span> Add by Contact </span>
+          </div>
+          <div class="find_screen_icons-icon">
+            <i class="far fa-id-badge"></i>
+            <span> Add By ID </span>
+          </div>
+          <div class="find_screen_icons-icon">
+            <i class="fas fa-envelope"></i>
+            <span> Invite </span>
+          </div>
+        </div>
+        <div class="recommended">
+          <header class="recommended_header">
+            <h4>Recommened Friends</h4>
+          </header>
+          <div class="recommended_main">
+            <span>You have no recommended friends</span>
+          </div>
+        </div>
+        <div class="open_chat">
+          <header class="open_chat_header">
+            <span>Open Chat</span>
+            <a class="open_chat_header_home">
+              Go to Openchat Home
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </a>
+          </header>
+          <div class="open_chat_inbox">
+            <div class="open_chat_inbox_column">
+              <div class="open_chat_inbox_text">
+                <h6>#Study Room</h6>
+                <span>#Quite #Study #Project</span>
+                <div class="open_chat_inbox_text_users">
+                  <img
+                    src="https://i.pinimg.com/564x/2d/52/af/2d52af5d41289fb1ca6d9d82feec0a99.jpg"
+                  />
+                  <span>71 members | </span>
+                  <span>Active</span>
+                </div>
+              </div>
+            </div>
+            <div class="open_chat_inbox_column">
+              <div class="open_chat_inbox_photo">
+                <img
+                  src="https://i.pinimg.com/564x/56/37/7f/56377faeb2945fab9f8a1343bb9edc6c.jpg"
+                />
+                <span class="open_chat_inbox_column-heart">
+                  <i class="fas fa-heart"></i>
+                  97
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="open_chat_inbox">
+            <div class="open_chat_inbox_column">
+              <div class="open_chat_inbox_text">
+                <h6>#Boynextdoor</h6>
+                <span>#song #Onedoor #400years</span>
+                <div class="open_chat_inbox_text_users">
+                  <img
+                    src="https://i.pinimg.com/736x/16/23/c7/1623c7e076be1613a2b447150125aad0.jpg"
+                  />
+                  <span>9700 members | </span>
+                  <span>Active</span>
+                </div>
+              </div>
+            </div>
+            <div class="open_chat_inbox_column">
+              <div class="open_chat_inbox_photo">
+                <img
+                  src="https://i.pinimg.com/736x/d0/a4/5e/d0a45e715f2f0c5cc606af1cde4e238a.jpg"
+                />
+                <span class="open_chat_inbox_column-heart">
+                  <i class="fas fa-heart"></i>
+                  1530
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="open_chat_inbox">
+            <div class="open_chat_inbox_column">
+              <div class="open_chat_inbox_text">
+                <h6>#Ate</h6>
+                <span>#SKZ #2024.07.19 #Luck</span>
+                <div class="open_chat_inbox_text_users">
+                  <img
+                    src="https://i.pinimg.com/736x/26/0d/d9/260dd9c7043c6b4a35ad40d71d8fce66.jpg"
+                  />
+                  <span>1019 members | </span>
+                  <span>Active</span>
+                </div>
+              </div>
+            </div>
+            <div class="open_chat_inbox_column">
+              <div class="open_chat_inbox_photo">
+                <img
+                  src="https://i.pinimg.com/564x/1e/b7/e1/1eb7e1b53771f52b846ccfd83287e816.jpg"
+                />
+                <span class="open_chat_inbox_column-heart">
+                  <i class="fas fa-heart"></i>
+                  996
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="open_chat_inbox">
+            <div class="open_chat_inbox_column">
+              <div class="open_chat_inbox_text">
+                <h6>#Summer camp</h6>
+                <span>#Study #SPPS #School</span>
+                <div class="open_chat_inbox_text_users">
+                  <img
+                    src="https://i.pinimg.com/564x/ca/a9/1d/caa91db7d36a03ab4f6062160124ce1c.jpg"
+                  />
+                  <span>279 members | </span>
+                  <span>Active</span>
+                </div>
+              </div>
+            </div>
+            <div class="open_chat_inbox_column">
+              <div class="open_chat_inbox_photo">
+                <img
+                  src="https://i.pinimg.com/564x/fb/6b/d6/fb6bd6dccb3b38b31685e7f62c3a8fd0.jpg"
+                />
+                <span class="open_chat_inbox_column-heart">
+                  <i class="fas fa-heart"></i>
+                  147
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_list_btn">
+            <a class="nav_link" href="friends.html"
+              ><i class="far fa-user fa-lg"></i
+            ></a>
+          </li>
+          <li class="nav_list_btn">
+            <a class="nav_link" href="chats.html">
+              <span class="nav_notification">7</span>
+              <i class="far fa-comment fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav_list_btn">
+            <a class="nav_link" href="search.html"
+              ><i class="fas fa-search fa-lg"></i
+            ></a>
+          </li>
+          <li class="nav_list_btn">
+            <a class="nav_link" href="more.html">
+              <span class="nav_dot"></span>
+              <i class="fas fa-ellipsis-h fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
